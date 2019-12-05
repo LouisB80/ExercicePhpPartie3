@@ -1,0 +1,30 @@
+body
+{
+  text-align: center;
+  background-image: url('../img/bear.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1
+{
+  background-color: yellow;
+}
+.container-fluid
+{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  width: 40%;
+  margin-top: 10%;
+  margin-right: 58%;
+  color: white;
+}
+.scroller
+{
+  width: 25%;
+  height: 500px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
