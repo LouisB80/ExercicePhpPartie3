@@ -16,6 +16,7 @@
     <p><?php while ($compt <= 10) {
       echo "compteur = $compt <br/>";
       $compt-= -1;
+      $compt - = -1;
     };?></p>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
