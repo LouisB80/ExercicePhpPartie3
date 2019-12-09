@@ -15,7 +15,6 @@
   <div class="container">
     <p><?php while ($compt <= 10) {
       echo "compteur = $compt <br/>";
-      $compt-= -1;
       $compt - = -1;
     };?></p>
   </div>
