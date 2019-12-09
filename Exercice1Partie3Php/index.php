@@ -13,10 +13,12 @@
 <body>
   <h1>Exercice 1 Partie 3 PHP</h1>
   <div class="container">
-    <p><?php while ($compt <= 10) {
+    <p>
+      <?php while ($compt <= 10) {
       echo "compteur = $compt <br/>";
-      $compt - = -1;
-    };?></p>
+      $compt -= -1;
+    };?>
+    </p>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
